@@ -7,7 +7,30 @@ redirect_from:
   - /about/
   - /about.html
 ---
+## 신원균/Wongyun Shin ## 
+##### 1998.08.08 / Pohang, South Korea
+--- 
+##### Tel.(+82) 010-5188-0185
+##### email. sok5188@gmail.com
+##### Place. 서울특별시 동대문구 휘경동
+---
+### Graduation
+#### 2017  포항 대동고등학교 졸업
+#### 2018 ~
+서울시립대학교 입학 (2024.2 졸업예정)
 
+---
+## Stack
+### **Can make easy project by myself**
+C/C++, Java, Nodejs, Kotlin
+### **I know just basic grammer**
+Swift
+
+---
+## Projects
+#### 2022.09.28 ~ 노래맞추기(ver.Android)
+
+<!--
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
@@ -47,4 +70,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->

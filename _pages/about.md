@@ -7,18 +7,22 @@ redirect_from:
   - /about/
   - /about.html
 ---
-## 신원균/Wongyun Shin ## 
-##### 1998.08.08 / Pohang, South Korea
---- 
-##### Tel.(+82) 010-5188-0185
-##### email. sok5188@gmail.com
-##### Place. 서울특별시 동대문구 휘경동
----
-### Graduation
-#### 2017  포항 대동고등학교 졸업
-#### 2018 ~
-서울시립대학교 입학 (2024.2 졸업예정)
+# About me
+## Name
+### 신원균/Wongyun Shin
+## Birth
+#### 1998.08.08 / Pohang, South Korea
 
+--- 
+## Contact
+##### Tel.(+82) 010-5188-0185
+##### email: sok5188@gmail.com
+##### Place: 서울특별시 동대문구 휘경동
+---
+## Graduation
+#### 2017  포항 대동고등학교 졸업
+#### 2018 ~ 서울시립대학교 입학 (2024.2 졸업예정)
+#### 2019 ~ 2020 육군 제 1사단 병장 만기전역
 ---
 ## Stack
 ### **Can make easy project by myself**
@@ -29,6 +33,29 @@ Swift
 ---
 ## Projects
 #### 2022.09.28 ~ 노래맞추기(ver.Android)
+#### 2022.11(예정)~ 소프트웨어 공학 팀프로젝트 (미스터 대박 디너 서비스) 구현
+#### 2022.12(예정) ~ 소프트웨어 응용 팀프로젝트 기반 어플개발
+
+---
+## 어학
+#### TOEIC 845 (2022.07.24)
+---
+## Interest
+#### Back-end, Android, iOS
+---
+## 한마디로 나를 표현 하자면?
+#### 바보멍게해삼말미잘,말하는 감자 이지만 뭐든 결정하고 마음먹은 사항에 대해서는 몇일 몇개월 몇년이 걸리든 끝까지 한다.
+
+
+
+
+
+
+
+
+
+
+
 
 <!--
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).

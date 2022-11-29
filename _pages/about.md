@@ -62,8 +62,6 @@ DB : MySQL , Framework : Express
 
 Spring, backend with Java
 
-###
-
 ---
 
 ## Projects
@@ -73,7 +71,8 @@ Spring, backend with Java
 #### 2022.11.14~2022.11.27 소프트웨어 공학 팀프로젝트 (미스터 대박 디너 서비스) 구현 완료
 
 front : https://github.com/jackine08/PizzaWebsite
-back : https://github.com/sok5188/Mr_Daebak
+
+# back : https://github.com/sok5188/Mr_Daebak
 
 #### 2022.12(예정) ~ 소프트웨어 응용 팀프로젝트 기반 해수욕장 추천 어플 개발
 

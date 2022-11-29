@@ -60,7 +60,7 @@ DB : MySQL , Framework : Express
 
 ### **Plan to study**
 
-Spring, backend with Java
+Spring, backend with Java, AWS
 
 ---
 

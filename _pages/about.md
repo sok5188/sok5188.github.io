@@ -46,13 +46,9 @@ redirect_from:
 
 C/C++, Java, Node.js
 
-### **Can make toy project by myself**
+### **Can make project with large search**
 
-Kotlin, React
-
-### **I know just basic grammer**
-
-Swift
+Kotlin, React ,C#
 
 ### **Etc**
 
@@ -60,9 +56,7 @@ DB : MySQL , Framework : Express
 
 ### **Plan to study**
 
-Spring, backend with Java, AWS
-
----
+## Spring, backend with Java, AWS, Kotlin, Swift
 
 ## Projects
 
@@ -73,8 +67,6 @@ Spring, backend with Java, AWS
 #### front : https://github.com/jackine08/PizzaWebsite
 
 #### back : https://github.com/sok5188/Mr_Daebak
-
-### 2022.12(예정) ~ 소프트웨어 응용 팀프로젝트 기반 해수욕장 추천 어플 개발
 
 ---
 
@@ -92,7 +84,7 @@ Spring, backend with Java, AWS
 
 ## 한마디로 나를 표현 하자면?
 
-#### 결정하고 마음먹은 사항에 대해서는 몇일 몇개월 몇년이 걸리든 끝까지 한다.
+#### 한번 물면 절대 안놓는다.
 
 <!--
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).

@@ -56,7 +56,7 @@ DB : MySQL , Framework : Express
 
 ### **Plan to study**
 
-## Spring, backend with Java, AWS, Kotlin, Swift
+Nest.js, Spring, backend with Java, AWS, Kotlin, Swift
 
 ## Projects
 

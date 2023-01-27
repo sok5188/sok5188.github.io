@@ -64,13 +64,13 @@ AWS EC2,RDS
 
 ### 2022.11.14~2022.11.27 소프트웨어 공학 팀프로젝트 (미스터 대박 디너 서비스) 구현 완료
 
-#### front : https://github.com/jackine08/PizzaWebsite
+#### [front](https://github.com/jackine08/PizzaWebsite)
 
-#### back : https://github.com/sok5188/Mr_Daebak
+#### [back](https://github.com/sok5188/Mr_Daebak)
 
 ### 2022.12.22 ~ 노래맞추기 (web, using spring boot 3.0.1)
 
-#### https://github.com/sok5188/spring_study
+#### [full](https://github.com/sok5188/spring_study)
 
 ---
 

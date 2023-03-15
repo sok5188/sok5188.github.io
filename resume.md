@@ -10,7 +10,7 @@ subtitle: 노력의 가치를 아는 개발자 신원균 입니다
 ### SKILLS
 
 <strong>Back-End</strong><br/>
-Java, Spring Frameword, Spring Boot, REST API, Websocket, Node.js<br/>
+Java, Spring Framework, Spring Boot, REST API, Websocket, Node.js<br/>
 <strong>Front-End</strong><br/>
 React,Vue, HTML5, Javascript<br/>
 <strong>Server</strong><br/>
@@ -18,7 +18,7 @@ EC2, RDS, Tomcat<br/>
 <strong>DB</strong><br/>
 PostgreSQL, MySQL, MSSQL, H2<br/>
 <strong>OS</strong><br/>
-Windoww, MacOS, Linux<br/>
+Window, MacOS, Linux<br/>
 <strong>Tools</strong><br/>
 IntelliJ, VS code, pgAdmin4<br/>
 <strong>Collaborations, Document</strong><br/>

@@ -10,17 +10,19 @@ subtitle: 노력의 가치를 아는 개발자 신원균 입니다
 ### SKILLS
 
 <strong>Back-End</strong><br/>
-Java, Spring Framework, Spring Boot, REST API, Websocket, Node.js<br/>
+Java, Spring Boot, Websocket, Node.js<br/>
 <strong>Front-End</strong><br/>
-React,Vue, HTML5, Javascript<br/>
+Flutter,React.js,Vue.js, HTML5, Javascript<br/>
 <strong>Server</strong><br/>
-EC2, RDS, Tomcat<br/>
+Tomcat, Nginx<br/>
+<strong>DevOps</strong><br/>
+AWS(EC2,RDS,S3,CodeDeploy)<br/>
 <strong>DB</strong><br/>
 PostgreSQL, MySQL, MSSQL, H2<br/>
 <strong>OS</strong><br/>
-Window, MacOS, Linux<br/>
+MacOS, Linux,Windows<br/>
 <strong>Tools</strong><br/>
-IntelliJ, VS code, pgAdmin4<br/>
+IntelliJ, Postman, MySQL workbench,VS code, pgAdmin4, Android Studio<br/>
 <strong>Collaborations, Document</strong><br/>
 Git, Github, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
 
@@ -59,10 +61,10 @@ Git, Github, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
 이 프로젝트에서 저는, 다른 팀원 한명과 함께 백엔드를 담당하였습니다.
 <br/> 위 프로젝트에서 사용한 기술의 경우, 교내 OPEN API를 통해 강의 정보를 받아오고, 프론트는 Flutter, 백엔드는 Spring Boot를 사용하였고, DB는 MySql을 사용했습니다. 또한, 서버는 EC2를 통해 배포 하였고, RDS를 사용하여 원격으로 DB를 관리하였습니다. 그리고, github actions와 AWS S3, AWS CodeDeploy를 이용하여 CI/CD를 구현하였습니다.<br/><br/>
 해당 프로젝트에서 저는 배포와 관련된 부분 (CI,CD설정 및 AWS설정)을 담당하였고, 현재 무중단 배포 중에 있습니다. 또, 프로젝트의 인증을 JWT를 이용하여 수행하였고 Filter에서 인증기능을 수행하였습니다. 그리고, 프론트엔드와 원활한 소통을 위해 서버에 스웨거를 적용하였습니다.
-또, 다음의 SMTP서버를 이용하여 이메일 인증 기능을 구현하였고, 이외의 로그인 및 회원가입등 사용자와 관련된 부분에 대한 기능 개발(엔티티 설계, 서비스 로직 및 API 설계 등)을 담당하였습니다. 그리고,Jsoup을 이용하여 학교 비교과 페이지인 Uostory페이지의 정보들을 크롤링하여 DB에 저장하는 기능을 구현하였으며 이를 Spring Scheduler에 등록하여 매일 오전 5시에 수행되게끔 설정하였습니다. 이외에도, 친구관련 기능, 그룹관련 기능, 카테고리 관련 기능, 알림 관련 기능을 담당하여 개발을 하였습니다.
+또, 다음의 SMTP서버를 이용하여 이메일 인증 기능을 구현하였고, 이외의 로그인 및 회원가입등 사용자와 관련된 부분에 대한 기능 개발(엔티티 설계, 서비스 로직 및 API 설계 등)을 담당하였습니다. 그리고,Jsoup을 이용하여 학교 비교과 페이지인 Uostory페이지의 정보들을 크롤링하여 DB에 저장하는 기능을 구현하였으며 이를 Spring Scheduler에 등록하여 매일 오전 5시에 수행되게끔 설정하였습니다. 그리고, FCM(FireBase Cloud Messaging)을 사용하여 서버에서 Flutter 기기로 알림을 보내는 기능을 구현하였고, Flutter에서 이를 받아 처리하는 부분을 구현하였습니다. 이외에도, 친구관련 기능, 그룹관련 기능, 카테고리 관련 기능, 알림 관련 기능을 담당하여 개발을 하였습니다.
 <br/>
 팀원과의 소통은 Notion, Swagger, 카카오톡, Discord를 이용하여 필요시마다 적극적으로 소통을 하였습니다.<br/>
-현재, 백엔드개발은 95%이상 완료되었지만, 프론트엔드 개발이 부족하여 Flutter와 FCM을 이용하여 알림기능을 구현하는 부분을 맡아 프론트엔드 개발에도 도움을 줄 생각입니다.
+현재, 백엔드개발은 95%이상 완료되었지만, 프론트엔드 개발이 부족하여 Flutter를 사용하여 구현이 덜 된 부분 및 미흡한 부분을 맡아 개발하고 있습니다.
 <br/><br/>
 현재 백엔드 프로젝트는 <a href="https://github.com/orgs/EmptySaver/repositories">공강구조대</a> 깃허브에서 진행중 입니다.
 <br/><br/><br/>
@@ -71,7 +73,7 @@ Git, Github, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
 이 프로젝트는 서울소재 대학생간 진행하는 프로그래밍 스터디 Homebrew클럽에서 진행하는 프로젝트로, 채팅기능 및 인증기능을 메인으로 하는 Homebrew동아리 홈페이지를 제작하는 프로젝트 입니다. <br/>
 해당 프로젝트는 프론트엔드 2명 백엔드 4명으로 진행하며 그 중 저는 백엔드를 담당하고 있습니다 <br/><br/>
 프로젝트에서 담당할 분야인 채팅의 경우 1:1 채팅,1:N 채팅, 익명채팅 등의 채팅 기능을 생각하고 있으며 읽지 않은 알림 갯수 표시, 이전 대화기록 불러오기 등 여러 기능을 추가해볼 생각입니다. <br/>
-위 프로젝트에서 저는, Github action, S3, CodeDeploy를 활용하여 프론트엔드 및 백엔드 CI/CD작업을 진행하였습니다.<br/>
+위 프로젝트에서 저는, Github action, S3, CodeDeploy를 활용하여 프론트엔드 및 백엔드 CI/CD작업을 진행하였으며, 서버의 보안을 위해 Https를 적용하였습니다.<br/>
 이후, 웹소캣을 이용하여 (sockJS) 소캣통신을 구현할 예정입니다.<br/>
 현재 백엔드 프로젝트는 <a href="https://github.com/HomebrewComputerClub/Team2_Chatting_BE">HomebrewChattingBE</a> 깃허브에서 진행중 입니다.
 <br/><br/><br/>

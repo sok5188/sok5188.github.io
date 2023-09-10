@@ -24,9 +24,9 @@ PostgreSQL, MySQL, MSSQL, H2<br/>
 <strong>OS</strong><br/>
 MacOS, Linux,Windows<br/>
 <strong>Tools</strong><br/>
-IntelliJ, Postman, MySQL workbench,VS code, pgAdmin4, Android Studio<br/>
+IntelliJ, Postman, MySQL workbench,VS code, DBeaver, Datadog, pgAdmin4, Android Studio<br/>
 <strong>Collaborations, Document</strong><br/>
-Git, Github, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
+Git, Github, bitbucket, Jira, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
 
 ### PROJECTS
 

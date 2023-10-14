@@ -12,19 +12,19 @@ subtitle: 노력의 가치를 아는 개발자 신원균 입니다
 <strong>Language</strong><br/>
 Java, JavaScript, HTML5, C/C++<br/>
 <strong>Back-End</strong><br/>
-Spring Boot, Websocket(STOMP), Node.js<br/>
+Spring Boot(JPA,Security,Actuator,Event ...), Kafka, RabbitMQ, Prometheus, Grafana, pinpoint, nGrinder, Datadog, Websocket(STOMP), Node.js<br/>
 <strong>Front-End</strong><br/>
 Flutter,React.js,Vue.js<br/>
 <strong>Server</strong><br/>
 Nginx<br/>
 <strong>DevOps</strong><br/>
-AWS(EC2,RDS,S3,CodeDeploy), GithubActions<br/>
+AWS(EC2,RDS,S3,CodeDeploy), GithubActions, Jenkins, ArgoCD<br/>
 <strong>DB</strong><br/>
 PostgreSQL, MySQL, MSSQL, H2<br/>
 <strong>OS</strong><br/>
 MacOS, Linux,Windows<br/>
 <strong>Tools</strong><br/>
-IntelliJ, Postman, MySQL workbench,VS code, DBeaver, Datadog, pgAdmin4, Android Studio<br/>
+IntelliJ, Postman, MySQL workbench,VS code, DBeaver, pgAdmin4, Android Studio<br/>
 <strong>Collaborations, Document</strong><br/>
 Git, Github, bitbucket, Jira, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
 

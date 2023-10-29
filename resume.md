@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Résumé
-subtitle: 다양한 경우를 찾는 개발자 신원균 입니다.
+subtitle: 스펀지 같은 개발자 신원균 입니다.
 ---
 
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>

@@ -10,15 +10,19 @@ subtitle: 스펀지 같은 개발자 신원균 입니다.
 ### SKILLS
 
 <strong>Language</strong><br/>
-Java, JavaScript, HTML5, C/C++<br/>
+Java, dart, JavaScript, HTML5, C#, C/C++<br/>
+
 <strong>Back-End</strong><br/>
-Spring Boot(JPA,Security,Actuator,Event ...), Kafka, RabbitMQ, Prometheus, Grafana, pinpoint, nGrinder, Datadog, Websocket(STOMP), Node.js<br/>
+Spring Framework (MVC, JPA, Batch, Security, Actuator, Cloud, WebFlux ...) <br/>
+MQ (Kafka, RabbitMQ)<br/>
+Monitoring (Prometheus, Grafana, pinpoint, nGrinder, Datadog)
+<br/>
+
 <strong>Front-End</strong><br/>
 Flutter,React.js,Vue.js<br/>
-<strong>Server</strong><br/>
-Nginx<br/>
+
 <strong>DevOps</strong><br/>
-AWS(EC2,RDS,S3,CodeDeploy), GithubActions, Jenkins, ArgoCD<br/>
+AWS(EC2,RDS,S3,CodeDeploy), GithubActions, Jenkins, ArgoCD, nginx<br/>
 <strong>DB</strong><br/>
 PostgreSQL, MySQL, MSSQL, H2<br/>
 <strong>OS</strong><br/>
@@ -28,7 +32,65 @@ IntelliJ, Postman, MySQL workbench,VS code, DBeaver, pgAdmin4, Android Studio<br
 <strong>Collaborations, Document</strong><br/>
 Git, Github, bitbucket, Jira, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
 
+### Work
+
+<h4><strong>AITStory</strong></h4> Tmap 전기차 충전 서비스 팀(BE) <span style="float: right; "> 2023.09 ~ 2023.12</span>
+<br/><br/>
+학부 4-2 학기에 ICT 인턴십으로 근무했던 회사입니다. 해당 회사에서 백엔드 개발자로 일했었고 tmap 내의 전기차 충전 플랫폼의 백엔드 개발을 담당하였습니다.
+<br/>
+애자일 프로세스기반으로 근무하였고 매주 진행되던 스프린트 내에서 slack을 통해 의사소통을 진행하였고 Jira에 주어지는 ticket을 기반으로 개발을 진행하였습니다.
+<br/><br/>
+근무를 하며 얻은 경험을 간단히 정리하면
+- 충전 종료 후 결제 주문서 상 상태가 결제대기인 상태로 남아있는 이슈의 원인이 동시성 문제임을 파악하고 이를 재현하고 알려 해당 문제를 해결한 경험
+- 비동기 이벤트 기반 처리를 하는 부분에서 간헐적인 낙관적 락 오류가 발생하는 원인이 실제 충전기기와의 통신에서 지연이 발생하게 되는 것임을 로그를 통해 파악하고 이를 개선하기 위해선 OSIV 옵션을 비활성화 하여 영속성을 짧게 유지시키는게 유리할 것 같다는 의견을 제시해본 경험
+- 또한 서버 배포 이후 사용자에게 푸시 알림이 지속적으로 나가는 오류를 발견하고 prd db 조작을 통해 알림 전송을 막고 문제의 원인이 mq내에서 반복적으로 발생하던 오류임을 파악하고 이를 dead-letter queue 및 retry 횟수 제한으로 해결한 경험
+- 정산시 충전 서버와 결제 서버와의 차액 발생을 쉽게 해결하기 위한 사후 재결제 기능을 구현하게 되었고, 배치 서버에 등록하고 배치서버 및 메인 서버에 테스트 코드를 작성하여 실 동작여부를 검증해보는 경험
+
+등과 같은 다양한 경험을 해보았습니다.
+<br/>
+<br/>
+근무를 하면서 단순히 인턴이라는 생각보단 하나의 팀이라는 생각을 가지고 일할 수 있게 도와주셨고 저도 그 덕분에 더욱 몰입하며 일할 수 있었습니다.<br/>
+개발을 하면서 가장 중요시 했던 부분은 내가 수정하는 부분이 실제 사용자에게 어떠한 영향을 미칠 수 있는 가 였습니다.<br/>
+기능적으로는 결함이 없으나 사용자의 입장에서 서비스를 이용하는데 기다림의 시간이 길어지는 경우, 다량의 사용자가 유입된 상황에서는 정상 동작하지 않을 가능성이 있는 경우와 같이 서비스 이용자가 느낄 수 있는 잠재적 불편함이 존재한다고 생각했고 <br/>
+이를 개선하기 위해서 기존 불필요한 필터링 작업 제거, 불필요한 다량의 데이터 조회 제거, 동시성 문제를 고려한 쿠폰 발급 서비스 개선등의 개발을 진행하였습니다. <br/>
+이후 개인적으로 트래픽이 몰리는 상황을 만들어 보고자 기존 진행했던 프로젝트에 부하를 걸어보고 이에 발생하는 동시성 문제 및 응답 지연 문제를 해결해보는 프로젝트를 진행하게 되는 계기가 되었습니다.
+<br/>
+<br/>
+
 ### PROJECTS
+
+<br/>
+
+<h3>Gyunpang</h3> 개인 프로젝트 <span style="float: right; "> 2024.03 ~ </span>
+<br/><br/>
+<strong>프로젝트 구조</strong><br/>
+<img src="/assets/img/Gyunpang_Architect.jpg" alt="프로젝트구조">
+<strong>프로젝트 배경</strong><br/>
+실제 서비스 도중 발생할 수 있는 여러 상황들을 만들어보고 이 상황 속에서도 강건하게 유지되는 시스템을 구축해보고자 시작한 프로젝트입니다.<br/>
+인터넷 쇼핑이라는 도메인을 이용하여 선착순 쿠폰, 재고 처리 등 다량의 사용자가 접근하는 상황에서 발생하는 동시성 문제와 특가 이벤트와 같이 일시적으로 급격하게 증가하는 트래픽에 대처하는 방법을 익혀보는 것이 목적인 프로젝트입니다<br/>
+<br/>
+
+<strong>사용한 기술 스택</strong>
+<br/><br/>
+BE : Spring (MVC, WebFlux, JPA, Security, Cloud, Kafka) <br/>
+Devops : nginx, docker <br/>
+MQ : Kafka(Kraft) <br/>
+Cloud : aws ec2, oracle cloud, google cloud platfrom <br/>
+Cache : (Redis) <br/>
+Monitoring : (Pinpoint) <br/>
+<br/><br/>
+
+<strong>구현한 내용</strong>
+<br/>
+추후 기능별 정리 후 업데이트 예정입니다. <a href="https://sirong-blog.tistory.com/category/Gyunpang"> 개인 블로그</a> 에서 현재 진행 상황을 확인하실 수 있습니다.
+<br/>
+
+<!-- <strong> 프로젝트 회고</strong> -->
+
+<hr/>
+<!-- -------------------------------------------프로젝트 구분선----------------------------------------------------- -->
+<!-- -------------------------------------------프로젝트 구분선----------------------------------------------------- -->
+<!-- -------------------------------------------프로젝트 구분선----------------------------------------------------- -->
 
 <h3>공강구조대</h3> 팀 프로젝트 (3인) <span style="float: right; "> 2023.03 ~ 2023.06</span>
 <br/>
@@ -186,11 +248,6 @@ React,Node.js를 이용하여 프론트,백엔드 개발을 진행하였습니�
 <hr/>
 <br/>
 
-### JOB
-
-AITStory (ICT Internship) <span style="float: right; ">2023.09 ~ 2023.12</span>  
-**백엔드개발**
-
 <br/>
 
 ### EDUCATION
@@ -202,17 +259,15 @@ AITStory (ICT Internship) <span style="float: right; ">2023.09 ~ 2023.12</span>
 2022.9 ~ 2022.12 데이터 통신 조교 활동<br/>
 <br/>
 <strong>수료 강의</strong> <br/>
-삼성 하계 S/W 알고리즘 특강 (검정 B형 취득) <span style="float: right; ">2023.07 ~ 2023.08</span>  
-자바 ORM 표준 JPA 프로그래밍 - 기본편 <span style="float: right; ">인프런, 김영한</span><br/>
-실전! 스프링 부트와 JPA 활용2 - API 개발과 성능 최적화 <span style="float: right; ">인프런, 김영한</span><br/>
-스프링 MVC 2편 - 백엔드 웹 개발 활용 기술 <span style="float: right; ">인프런, 김영한</span><br/>
-스프링 핵심 원리 - 고급편 <span style="float: right; ">인프런, 김영한</span><br/>
-스프링 부트 - 핵심 원리와 활용 <span style="float: right; ">인프런, 김영한</span><br/>
+삼성전자 dx 하계 S/W 알고리즘 특강 (우수 수료, pro 취득) <span style="float: right; ">2023.07 ~ 2023.08</span>
 
 ### LANGUAGE
 
 TOEIC <span style="float: right; ">2022.07.24</span>  
 **845**
+
+TOEIC Speaking<span style="float: right; ">2023.09.24</span>  
+**150 (IH)**
 
 <!-- ### EXPERIENCE
 

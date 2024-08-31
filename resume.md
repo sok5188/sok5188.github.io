@@ -7,55 +7,124 @@ subtitle: 스펀지 같은 개발자 신원균 입니다.
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
 <br>
 
-### SKILLS
+## SKILLS
 
-<strong>Language</strong><br/>
-Java, dart, JavaScript, HTML5, C#, C/C++<br/>
-
-<strong>Back-End</strong><br/>
-Spring Framework (MVC, JPA, Batch, Security, Actuator, Cloud, WebFlux ...) <br/>
-MQ (Kafka, RabbitMQ)<br/>
-Monitoring (Prometheus, Grafana, pinpoint, nGrinder, Datadog)
+### <strong> Strong </strong><br/>
+Java, Spring Framework, JPA, RDBMS
+dart, JavaScript, HTML5, C#, C/C++<br/>
+<br/>
+### <strong> Knowledgeable </strong><br/>
+MQ (Kafka, RabbitMQ) <br/>
+Monitoring (Prometheus, Grafana, pinpoint, nGrinder, Datadog) <br/>
+Frontend (Flutter,React.js,Vue.js) <br/>
+OS (Linux, MacOS, Windows)
+DevOps (docker, nginx, GithubActions, ArgoCD)
 <br/>
 
-<strong>Front-End</strong><br/>
-Flutter,React.js,Vue.js<br/>
+---
 
-<strong>DevOps</strong><br/>
-AWS(EC2,RDS,S3,CodeDeploy), GithubActions, Jenkins, ArgoCD, nginx<br/>
-<strong>DB</strong><br/>
-PostgreSQL, MySQL, MSSQL, H2<br/>
-<strong>OS</strong><br/>
-MacOS, Linux,Windows<br/>
-<strong>Tools</strong><br/>
-IntelliJ, Postman, MySQL workbench,VS code, DBeaver, pgAdmin4, Android Studio<br/>
-<strong>Collaborations, Document</strong><br/>
-Git, Github, bitbucket, Jira, Notion, Slack, Google Workspace, MS office<br/><br/><br/>
+## Work
 
-### Work
-
-<h4><strong>AITStory</strong></h4> Tmap 전기차 충전 서비스 팀(BE) <span style="float: right; "> 2023.09 ~ 2023.12</span>
+어떤 상황들에서, 어떤 방식을 시도해서, 어떤 결과를 만들어냈다.
+<h3> 삼성전자 </h4>
+<span style="color:gray"> Tizen Application Developer </span> <span style="float: right; color:gray"> 2024.01 ~ 현재 </span>
 <br/><br/>
-학부 4-2 학기에 ICT 인턴십으로 근무했던 회사입니다. 해당 회사에서 백엔드 개발자로 일했었고 tmap 내의 전기차 충전 플랫폼의 백엔드 개발을 담당하였습니다.
-<br/>
-애자일 프로세스기반으로 근무하였고 매주 진행되던 스프린트 내에서 slack을 통해 의사소통을 진행하였고 Jira에 주어지는 ticket을 기반으로 개발을 진행하였습니다.
+<strong> Role </strong> <br/>
+제품에 들어가는 LCD 애플리케이션 개발 담당
 <br/><br/>
-근무를 하며 얻은 경험을 간단히 정리하면
-- 충전 종료 후 결제 주문서 상 상태가 결제대기인 상태로 남아있는 이슈의 원인이 동시성 문제임을 파악하고 이를 재현하고 알려 해당 문제를 해결한 경험
-- 비동기 이벤트 기반 처리를 하는 부분에서 간헐적인 낙관적 락 오류가 발생하는 원인이 실제 충전기기와의 통신에서 지연이 발생하게 되는 것임을 로그를 통해 파악하고 이를 개선하기 위해선 OSIV 옵션을 비활성화 하여 영속성을 짧게 유지시키는게 유리할 것 같다는 의견을 제시해본 경험
-- 또한 서버 배포 이후 사용자에게 푸시 알림이 지속적으로 나가는 오류를 발견하고 prd db 조작을 통해 알림 전송을 막고 문제의 원인이 mq내에서 반복적으로 발생하던 오류임을 파악하고 이를 dead-letter queue 및 retry 횟수 제한으로 해결한 경험
-- 정산시 충전 서버와 결제 서버와의 차액 발생을 쉽게 해결하기 위한 사후 재결제 기능을 구현하게 되었고, 배치 서버에 등록하고 배치서버 및 메인 서버에 테스트 코드를 작성하여 실 동작여부를 검증해보는 경험
+<strong> What I did </strong> <br/>
+- 로그 분석을 통한 신규 팝업 생성
+<br/>&emsp;
+  <strong>Situation</strong> : x시점에서 단 한번만 발생하는 팝업을 생성해야 하는 상황, 과거 동일 요구사항이 있었지만 x시점에 단 한번만 실행되는 팝업을 만들 지 못함
+<br/>&emsp;
+  <strong>Solve</strong> : x시점에 특정 파일이 생성되어 flag 역할을 한다는 정보를 바탕으로 해당 파일을 생성하는 패킷이 어디에서든 존재할 것이라 추정하였고, 해당 파일을 찾기 위해 디버거를 통해 로그를 뒤졌고 x파일을 생성한 후 완료를 알리는 패킷이 전송된다는 사실을 확인 후 해당 패킷을 팝업의  flag로 사용
+<br/>&emsp;
+  <strong>Result</strong> : 기획서 및 사양서 수정 없이 개발 정상 진행
+<br/><br/>
+- 선행 개발 상품 LCD 개발 대응
+    - 신규 기능 개발을 위해 마이컴 개발자 및 기획, 공용부 개발자와 협업
+    - 일정 준수를 위해 해외 개발자들과 협업 및 개발 가이드 작성
+<br/>&emsp;
+    
+- 해외 개발자들과 협업
+    - 해외 개발자의 업무 투입을 위한 여러 영문 가이드 작성
+    - 실시간으로 소통하며 협업 진행
 
-등과 같은 다양한 경험을 해보았습니다.
-<br/>
-<br/>
-근무를 하면서 단순히 인턴이라는 생각보단 하나의 팀이라는 생각을 가지고 일할 수 있게 도와주셨고 저도 그 덕분에 더욱 몰입하며 일할 수 있었습니다.<br/>
-개발을 하면서 가장 중요시 했던 부분은 내가 수정하는 부분이 실제 사용자에게 어떠한 영향을 미칠 수 있는 가 였습니다.<br/>
-기능적으로는 결함이 없으나 사용자의 입장에서 서비스를 이용하는데 기다림의 시간이 길어지는 경우, 다량의 사용자가 유입된 상황에서는 정상 동작하지 않을 가능성이 있는 경우와 같이 서비스 이용자가 느낄 수 있는 잠재적 불편함이 존재한다고 생각했고 <br/>
-이를 개선하기 위해서 기존 불필요한 필터링 작업 제거, 불필요한 다량의 데이터 조회 제거, 동시성 문제를 고려한 쿠폰 발급 서비스 개선등의 개발을 진행하였습니다. <br/>
-이후 개인적으로 트래픽이 몰리는 상황을 만들어 보고자 기존 진행했던 프로젝트에 부하를 걸어보고 이에 발생하는 동시성 문제 및 응답 지연 문제를 해결해보는 프로젝트를 진행하게 되는 계기가 되었습니다.
-<br/>
-<br/>
+
+<h3> AITStory </h3>
+<span style="color:gray">Backend Developer </span> <span style="float: right; color:gray"> 2023.09 ~ 2023.12 (4개월)</span>
+<br/><br/>
+<strong> Role </strong> <br/>
+T map의 전기차 충전 플랫폼 백엔드 개발 담당
+<br/><br/>
+<strong> What I did </strong> <br/>
+
+- 기존 결제 대기 상태로 종료된 충전으로인해 발생하는 문제점 해결
+
+  <strong>Situation</strong> : 충전 종료 요청이후 결제가 진행되다 결제 대기 상태에서 충전이 정상적으로 종료된 후 결제가 멈추는 현상 발생
+<br/>&emsp;
+
+  <strong>Solve</strong> : 결제 대기 상태로 바뀐 시점 ~ 이후 상태값이 바뀌는 시점 사이에서 발생할 수 있는 모든 종류의 오류를 순서대로 발생시키는 테스트 시나리오 작성, 그 후 실제 환경에서 발생할 수 있는 원인을 분석. 
+<br/>&emsp;&emsp;&emsp; 한 유저가 동시에 2건의 충전을 종료시키는 경우 결제 플랫폼에서 오류가 발생하게 되지만 해당 결제의 결과는 메세징 큐를 통해 비동기로 전송되고 해당 큐의 리스너에서 결제의 결과를 저장
+<br/>&emsp;&emsp;&emsp; 따라서 결제 요청의 실패를 충전건에 반영하지 못하고 있었고, 충전 종료 요청에 대한 오류 또한 통합하여 제공하였기에 오류의 원인도 트래킹이 되지 않음
+<br/>&emsp;&emsp;&emsp; 해당 요청에 대해서 동시성이 문제였기에 Retry 옵션을 추가하였고, 동시 재요청을 방지하기 위해 jitter를 추가
+<br/>&emsp;
+
+    <strong>Result</strong> : retry 추가 및 오류 상세화 이후 해당 현상이 발생하지 않게 됨.
+<br/>&emsp;&emsp;&emsp; 또한, 정산 불일치의 주된 원인이 해당 현상이였기에, 수작업으로 결제 취소 후 재결제 하던 정산 과정을 90% 가량 감소시킴.
+<br/><br/>
+
+
+- 특정 api에서 발생하던 응답 지연 현상 해결
+
+  <strong>Situation</strong> : X에 관한 정보를 사용하는 api의 응답속도가 다른 api들에 비해 눈에 띄게 느림
+  <br/>&emsp;
+
+  <strong>Solve</strong> : 해당 api의 응답속도가 느려진 시점을 모니터링 도구를 통해 파악하고 해당 시점의 코드와 현재 코드를 비교
+  <br/>&emsp;&emsp;&emsp; 기존 db에서 조회하던 X를 타 서비스에서 제공받은 것으로 대체했다는 변경점 확인
+  <br/>&emsp;&emsp;&emsp; 이 과정에서 필터에 걸러지는 데이터 또한 우선적으로 X에 관한 정보를 가지고 있는 방식이라는 것을 확인했고, 해당 데이터들이 필터링이 끝난 후 X에 대한 정보를 포함하게끔 변경
+  <br/>&emsp;
+
+  <strong>Result</strong> : api의 응답속도가 P50(중간값)기준  461ms -> 59.5ms 로 약 675%의 성능 향상
+  <br/><br/>
+
+- 쿠폰 코드 추가 프로세스 단축
+  <br/>&emsp;
+
+  <strong>Situation</strong> : 신규 쿠폰 코드 추가 시 쿠폰 유효성 검증 및 db에 추가하는 과정에 드는 시간이 많이 소요 됨
+  <br/>&emsp;
+
+  <strong>Solve</strong> : 수식에 맞게 쿠폰 코드를 만들어내는 기능과 admin api를 통해 관리자가 api 호출로 간단하게 원하는 수 만큼의 쿠폰을 추가한다면 기존의 방식에 비해 소요 시간을 많이 단축 시킬 수 있다고 생각
+  <br/>&emsp;&emsp;&emsp; 쿠폰의 유효성을 검증하는 방식으로 
+    1. DB의 쿠폰 코드들을 페이징을 통해 조회하여 만들어진 쿠폰 코드들 중 중복된 값을 제거한 후 다시 추가하는 방식
+    2. 기존에 사용했던 쿠폰 코드들이 담겨있는 엑셀 파일을 통해 쿠폰 코드의 유효성을 체크하는 방식
+    3. DB의 유니크 키 예외를 통해 중복을 걸러 유효성을 체크하는 방식
+  <br/>&emsp; 위 3가지 방식을 떠올렸고 각 방식을 비교해본 결과 1000개의 신규 쿠폰 추가 기준으로 1의 방식은 평균 2분 10초, 2의 방식은 평균 1분 50초, 3의 방식은 1분 53초의 시간이 소요됨
+<br/>&emsp;
+    2의 방식이 제일 빠르지만 파일에 쿠폰 코드를 지속적으로 추가해야 하고, PRD환경에 이러한 파일을 올려야 하기에 유지 보수성이 매우 떨어진다고 생각하였고 1,3의 방법의 경우에도 2분에 가까운 시간은 효율적이진 않다고 생각.
+<br/><br/>
+  저장에 걸리는 시간이 주요한 원인이였기에 이를 줄이기 위해 저장 과정 자체를 병렬로 쓰레드를 펼쳐서 하는 방법 고안
+<br/>  실제 테스트 결과, 1의 경우 11초 3의 경우 10초로 저장 속도가 대폭 줄어들게 됨 
+
+    <strong>Result</strong> : 수작업 시 1000개의 쿠폰을 삽입하는데 걸리는 시간을 자동화하여 약 10분에서 -> 2분으로 줄임
+<br/>&emsp;&emsp;&emsp; 또한, 병렬 저장을 통해 이를 추가적으로 개선시켜 2분 -> 10초로 단축시킬 수 있었음
+<br/><br/>
+
+- 사후 재결제 기능 개발
+
+  <strong>Situation</strong> : 정산 시 발생하던 금액 차이로 인해 수동으로 실제 충전 사용량을 바탕으로 다시 결재를 하는 상황에서 이를 자동화하는 신규 프로세스 구축
+    <br/> 충분한 검증 필요, 쿠폰 및 사용자의 충전 이용등 전반적인 서비스 사용에 영향을 주지 않아야 함
+  <br/>&emsp;
+
+  <strong>Solve</strong> : 결제 내역을 바탕으로 해당 건에 사용된 쿠폰을 찾아 복구 시킨 뒤 재결제 사용건에 강제로 연결시켜 쿠폰이 자동으로 사용되게끔 구현
+    <br/>&emsp;&emsp;&emsp; 재결하는 동안 생기는 이용건을 활성화 세션의 숫자에 포함되지 않게 하기 위하여 재결제가 성공할때까지 delete 상태로 유지하고, 재결제 완료 이후 해당 내용을 모두 activate 시켜 실제 충전 세션에 영향을 주지 않게 구현
+  <br/>&emsp;&emsp;&emsp; 한 유저가 동시에 2건의 충전을 종료시키는 경우 결제 플랫폼에서 오류가 발생하게 되지만 해당 결제의 결과는 메세징 큐를 통해 비동기로 전송되고 해당 큐의 리스너에서 결제의 결과를 저장
+  <br/>&emsp;&emsp;&emsp; 가능한 모든 상황을 나누고, 재결제 로직에서 발생가능한 모든 오류를 정리하여 이를 테스트 케이스화 하고 메인 서버와 배치서버 모두에서 모든 시나리오에 대해 자동화 검증 수행
+  <br/>&emsp;
+
+  <strong>Result</strong> : 건당 1분 이상 걸리던 작업을 자동화 하여 불필요한 반복작업을 없앨 수 있게 되었고, 이를 통해 보다 강건한 서비스를 운영할 수 있게 됨
+  <br/><br/>
+
 
 ### PROJECTS
 
@@ -243,28 +312,30 @@ React,Node.js를 이용하여 프론트,백엔드 개발을 진행하였습니�
 <br/>
 
 <hr/>
-<br/>
 
-<br/>
 
-### EDUCATION
+## EDUCATION
 
-서울시립대학교 <span style="float: right; ">2018.03 ~ 2024.02</span>  
-**컴퓨터과학부**  
-2021.3 ~ 2021.6 학업 우수 장학 <br/>
-2021.9 ~ 2021.12 교내 교양 수학 튜터 활동<br/>
+#### 서울시립대학교 
+<span style="color:ashy"> 컴퓨터과학부 </span> <span style="float: right; ">2018.03 ~ 2024.02</span> <br/>  
+
 2022.9 ~ 2022.12 데이터 통신 조교 활동<br/>
+2021.9 ~ 2021.12 교내 교양 수학 튜터 활동<br/>
+2021.3 ~ 2021.6 학업 우수 장학 <br/>
 <br/>
-<strong>수료 강의</strong> <br/>
-삼성전자 dx 하계 S/W 알고리즘 특강 (우수 수료, pro 취득) <span style="float: right; ">2023.07 ~ 2023.08</span>
 
-### LANGUAGE
+#### 삼성전자 dx 하계 S/W 알고리즘 특강
+우수 수료자 선정, pro 등급 취득 <span style="float: right; ">2023.07 ~ 2023.08</span>
+
+## LANGUAGE
+
+TOEIC Speaking<span style="float: right; ">2023.09.16</span>  
+**150 (IH)**
 
 TOEIC <span style="float: right; ">2022.07.24</span>  
 **845**
 
-TOEIC Speaking<span style="float: right; ">2023.09.16</span>  
-**150 (IH)**
+
 
 <!-- ### EXPERIENCE
 

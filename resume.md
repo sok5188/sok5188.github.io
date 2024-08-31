@@ -26,7 +26,7 @@ DevOps (docker, nginx, GithubActions, ArgoCD)
 ## Work
 
 어떤 상황들에서, 어떤 방식을 시도해서, 어떤 결과를 만들어냈다.
-<h3> 삼성전자 </h4>
+<h3> 삼성전자 </h3>
 <span style="color:gray"> Tizen Application Developer </span> <span style="float: right; color:gray"> 2024.01 ~ 현재 </span>
 <br/><br/>
 <strong> Role </strong> <br/>
